@@ -31,3 +31,18 @@ body {
     text-decoration: none;
     color: rebeccapurple;
 }
+
+#selfie-container img {
+    width: 20%;
+}
+
+#selfie-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#interests-passions #interests, #passions{
+    display: flex;
+    justify-content: space-around;
+}
+
