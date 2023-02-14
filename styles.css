@@ -8,8 +8,6 @@ body {
     line-height: 1.5;
     background-color: RGB(55, 66, 88);
     color: white;
-    /* background: url(./images/laptop-table.jpg); */
-    /* background-image: url(./images/laptop-table.jpg); */
 }
 
 #header {
@@ -40,6 +38,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .statement {
@@ -49,23 +49,17 @@ body {
 }
 
 #footer {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    -moz-justify-content: space-between;
-    -webkit-justify-content: space-between;
-    -ms-justify-content: space-between;
     justify-content: space-between;
-    position: relative;
-    margin: 0;
-    line-height: 1em;
-    padding: 1.5em;
-    /* background: #39454b; */
-    /* color: rgba(185, 186, 187, 0.5); */
-    overflow: hidden;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    align-items: center;
+}
+
+.social {
+    font-size: 25px;
+}
+
+.social a {
+    color: white;
 }
