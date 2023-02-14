@@ -33,3 +33,39 @@ body {
     text-decoration: none;
     color: rebeccapurple;
 }
+
+#laptop-pic img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statement {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    line-height: 1em;
+    padding: 1.5em;
+    /* background: #39454b; */
+    /* color: rgba(185, 186, 187, 0.5); */
+    overflow: hidden;
+}
