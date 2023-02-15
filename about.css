@@ -348,3 +348,29 @@ li {
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    #links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    #selfie-container {
+        margin-left: 5%;
+    }
+
+    #selfie-container img {
+        width: 25%;
+    }
+
+    .carousel {
+        width: 80%;
+        height: 80vh;
+        margin-left: 10%;
+    }
+}

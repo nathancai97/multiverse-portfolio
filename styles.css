@@ -82,6 +82,12 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+    #links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     #laptop-pic img {
         width: 70%;
     }
