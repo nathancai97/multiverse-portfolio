@@ -34,6 +34,7 @@ body {
 
 #selfie-container img {
   width: 20%;
+  border-radius: 50%;
 }
 
 #selfie-container {
@@ -47,11 +48,15 @@ body {
 }
 
 #passions {
-  margin-right: 15%;
+  margin-right: 25%;
 }
 
-.tags {
-  margin-left: 25%;
+.passions-tag {
+  margin-left: 20%;
+}
+
+.interests-tag {
+    margin-left: 26%;
 }
 
 /* Carousel from css-tricks.com */
@@ -131,7 +136,7 @@ li {
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
   width: 50%;
-  height: 55vh;
+  height: 50vh;
   margin-left: 25%;
 }
 
@@ -152,12 +157,32 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
+  /* background-color: #f99; */
   counter-increment: item;
 }
 
-.carousel__slide:nth-child(even) {
-  background-color: #99f;
+.carousel__slide:nth-child(1) {
+  /* background-color: #99f; */
+  background-image: url(/images/nyc.jpg);
+  background-size: cover;
+}
+
+.carousel__slide:nth-child(2) {
+  /* background-color: #99f; */
+  background-image: url(/images/coffeeshop.jpg);
+  background-size: cover;
+}
+
+.carousel__slide:nth-child(3) {
+  /* background-color: #99f; */
+  background-image: url(/images/coding.jpg);
+  background-size: cover;
+}
+
+.carousel__slide:nth-child(4) {
+  /* background-color: #99f; */
+  background-image: url(/images/books.jpg);
+  background-size: cover;
 }
 
 .carousel__slide:before {
@@ -234,7 +259,7 @@ li {
 .carousel__next {
   position: absolute;
   top: 0;
-  margin-top: 37.5%;
+  margin-top: 28%;
   width: 4rem;
   height: 4rem;
   transform: translateY(-50%);
