@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="projects.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -21,5 +25,49 @@
         </links>
       </nav>
     </header>
+    <h2 id="experience-title">My Projects</h2>
+    <section id="projects-container">
+      <div class="project">
+        <h3>Netflix Clone</h3>
+        <img class="netflix-img" src="/images/netflix.jpeg" alt="netflix logo" />
+        <p class="project-descriptions">
+          Netflix clone created utilizing React.js, Stripe Checkout & Webhooks,
+          Redux, Firestore, Google Auth, and with TMDB's API. Users are able to
+          create an account to be authorized into the main page, as well as test
+          our Stripe's checkout by clicking subscribe on one of the streaming
+          plans.
+        </p>
+        <a class="websites" href="https://netflix-nathancai.web.app/" target="_blank">Website</a>
+        <a class="websites" href="https://github.com/nathancai97/netflix" target="_blank">Github</a>
+      </div>
+      <div class="project">
+        <h3>NASA Photo Of The Day</h3>
+        <img class="nasa-img" src="/images/nasa.jpeg" alt="nasa picture" />
+        <p class="project-descriptions">
+          Web Application showcasing NASA's photo of the day using React and
+          Axios. Features a calendar that allows users to switch to different
+          days and view the photo of that day. The deployed site is currently
+          down as I'm switching the hosting service from heroku.
+        </p>
+        <a class="websites" href="">Website</a>
+        <a class="websites" href="https://github.com/nathancai97/nasa-photo-of-the-day" target="_blank"
+          >Github</a
+        >
+      </div>
+    </section>
   </body>
+  <footer id="footer">
+    <nav class="social">
+      <a href="https://www.linkedin.com/in/nathancai97/" target="_blank"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/nathancai97" target="_blank"
+        ><i class="fa fa-github"></i
+      ></a>
+      <a href="http://instagram.com/nathan.ollie" target="_blank"
+        ><i class="fa fa-instagram"></i
+      ></a>
+    </nav>
+    <p class="menu">&copy; Nathan Cai</p>
+  </footer>
 </html>
