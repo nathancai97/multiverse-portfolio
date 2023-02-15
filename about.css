@@ -173,36 +173,30 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  /* background-color: #f99; */
   counter-increment: item;
 }
 
 .carousel__slide:nth-child(1) {
-  /* background-color: #99f; */
   background-image: url(/images/nyc.jpg);
   background-size: cover;
 }
 
 .carousel__slide:nth-child(2) {
-  /* background-color: #99f; */
   background-image: url(/images/coffeeshop.jpg);
   background-size: cover;
 }
 
 .carousel__slide:nth-child(3) {
-  /* background-color: #99f; */
   background-image: url(/images/coding.jpg);
   background-size: cover;
 }
 
 .carousel__slide:nth-child(4) {
-  /* background-color: #99f; */
   background-image: url(/images/books.jpg);
   background-size: cover;
 }
 
 .carousel__slide:before {
-  content: counter(item);
   position: absolute;
   top: 50%;
   left: 50%;
