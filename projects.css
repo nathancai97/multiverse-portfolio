@@ -59,12 +59,8 @@ body {
     align-items: center
 }
 
-.nasa-img {
-    width: 20%;
-}
-
-.netflix-img {
-    width: 20%;
+.img {
+    width: 30%;
 }
 
 .project {
