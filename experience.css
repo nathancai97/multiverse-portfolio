@@ -31,3 +31,21 @@ body {
   text-decoration: none;
   color: rebeccapurple;
 }
+
+#experience-title {
+    text-align: center;
+    margin-bottom: 5%;
+    text-decoration-line: underline;
+}
+
+#experience-container {
+    padding-left: 2%;
+}
+
+#education-experience > h3 {
+    padding-top: 2%;
+}
+
+.title {
+    margin: 0;
+}
