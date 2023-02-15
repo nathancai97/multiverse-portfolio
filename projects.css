@@ -77,3 +77,8 @@ body {
 .project-descriptions {
     width: 30%;
 }
+
+a {
+    text-decoration-line: underline;
+    color: rebeccapurple;
+}

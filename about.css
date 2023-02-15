@@ -177,22 +177,22 @@ li {
 }
 
 .carousel__slide:nth-child(1) {
-  background-image: url(/images/nyc.jpg);
+  background-image: url("/images/nyc.jpg");
   background-size: cover;
 }
 
 .carousel__slide:nth-child(2) {
-  background-image: url(/images/coffeeshop.jpg);
+  background-image: url("/images/coffeeshop.jpg");
   background-size: cover;
 }
 
 .carousel__slide:nth-child(3) {
-  background-image: url(/images/coding.jpg);
+  background-image: url("/images/coding.jpg");
   background-size: cover;
 }
 
 .carousel__slide:nth-child(4) {
-  background-image: url(/images/books.jpg);
+  background-image: url("/images/books.jpg");
   background-size: cover;
 }
 
