@@ -56,7 +56,23 @@ body {
 }
 
 .interests-tag {
-    margin-left: 26%;
+  margin-left: 26%;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  align-items: center;
+}
+
+.social {
+  font-size: 25px;
+}
+
+.social a {
+  color: white;
 }
 
 /* Carousel from css-tricks.com */
