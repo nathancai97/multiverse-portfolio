@@ -19,3 +19,6 @@ Site: [Personal Portfolio Site](https://www.nathancai.com/multiverse-portfolio/)
 
 4. Portfolio Page
 * The meat and potatoes of your personal site, here you want to include the projects you've worked on. For each project you wish to showcase, you should include the name of your project, a brief description, a screenshot, and a link to where it lives on the web.  Since we don’t have any projects to display yet, placeholder images/links/descriptions are completely fine.
+
+**Conclusion**
+It's been a while since I've made a static web page so I really enjoyed revisiting HTML and CSS. I stuck with just HTML and basic CSS styling, but I'm excited to start incorporating Javascript/React and also some back-end code to create full-stack applications. 
