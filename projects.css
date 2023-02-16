@@ -50,6 +50,7 @@ body {
 
 #experience-title {
     text-align: center;
+    text-decoration-line: underline;
 }
 
 #projects-container > .project {
