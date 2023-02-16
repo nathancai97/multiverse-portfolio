@@ -90,6 +90,10 @@ a:hover {
     text-decoration-line: underline;
 }
 
+nav a:hover {
+    color: #0a66c2;
+}
+
 @media screen and (max-width: 480px) {
   #links {
     display: flex;

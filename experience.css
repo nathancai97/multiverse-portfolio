@@ -77,6 +77,15 @@ button {
   color: white;
 }
 
+.websites:hover {
+    text-decoration-line: underline;
+    color: #0a66c2;
+}
+
+nav a:hover {
+    color: #0a66c2;
+}
+
 @media screen and (max-width: 480px) {
   #links {
     display: flex;
