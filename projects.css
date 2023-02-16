@@ -6,7 +6,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
-  background-image: url(/images/projects-page.jpg);
+  background-image: url("images/projects-page.jpg");
   background-size: 100% 100%;
   color: white;
 }
