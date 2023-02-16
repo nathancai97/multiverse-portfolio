@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   margin-left: 1%;
   margin-right: 1%;
+  align-items: center;
 }
 
 #links {
@@ -24,12 +25,16 @@ body {
 
 #links a {
   text-decoration: none;
-  color: rebeccapurple;
+  color: black;
 }
 
 #links a:visited {
   text-decoration: none;
-  color: rebeccapurple;
+  color: black;
+}
+
+button {
+  font-size: 1.5rem;
 }
 
 #footer {
@@ -38,6 +43,7 @@ body {
   padding-left: 1.5em;
   padding-right: 1.5em;
   align-items: center;
+  color: rgba(185, 186, 187, 0.5);
 }
 
 .social {
@@ -49,81 +55,85 @@ body {
 }
 
 #experience-title {
-    text-align: center;
-    text-decoration-line: underline;
+  text-align: center;
+  text-decoration-line: underline;
 }
 
 #projects-container > .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .img {
-    width: 30%;
+  width: 30%;
 }
 
 .project {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .project-descriptions {
-    width: 30%;
+  width: 30%;
 }
 
 a {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+a:hover {
     text-decoration-line: underline;
-    color: rebeccapurple;
 }
 
 @media screen and (max-width: 480px) {
-    #links {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+  #links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-    #experience-title {
-        margin: 0;
-    }
+  #experience-title {
+    margin: 0;
+  }
 
-    .project-descriptions {
-        width: 50%;
-    }
+  .project-descriptions {
+    width: 50%;
+  }
 
-    .img {
-        width: 50%;
-    }
+  .img {
+    width: 50%;
+  }
 
-    footer {
-        font-size: 1rem;
-    }
+  footer {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    footer {
-        font-size: 1rem;
-    }
+  footer {
+    font-size: 1rem;
+  }
 
-    #links {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+  #links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-    #experience-title {
-        margin: 0;
-    }
+  #experience-title {
+    margin: 0;
+  }
 
-    .project-descriptions {
-        width: 50%;
-    }
+  .project-descriptions {
+    width: 50%;
+  }
 
-    .img {
-        width: 50%;
-    }
+  .img {
+    width: 50%;
+  }
 }
