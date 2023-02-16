@@ -6,7 +6,8 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
-  background-color: RGB(55, 66, 88);
+  background-image: url(/images/experience-page.jpg);
+  background-size: cover;
   color: white;
 }
 
@@ -105,7 +106,6 @@ nav a:hover {
   .logo {
     width: 2%;
   }
-  
 }
 
 @media screen and (max-width: 480px) {
