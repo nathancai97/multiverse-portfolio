@@ -94,30 +94,6 @@ nav a:hover {
     color: #0a66c2;
 }
 
-@media screen and (max-width: 480px) {
-  #links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  #experience-title {
-    margin: 0;
-  }
-
-  .project-descriptions {
-    width: 50%;
-  }
-
-  .img {
-    width: 50%;
-  }
-
-  footer {
-    font-size: 1rem;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   footer {
     font-size: 1rem;
@@ -141,3 +117,27 @@ nav a:hover {
     width: 50%;
   }
 }
+
+@media screen and (max-width: 480px) {
+    #links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    #experience-title {
+      margin: 0;
+    }
+  
+    .project-descriptions {
+      width: 60%;
+    }
+  
+    .img {
+      width: 60%;
+    }
+  
+    footer {
+      font-size: 1rem;
+    }
+  }

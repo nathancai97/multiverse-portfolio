@@ -82,7 +82,7 @@ button {
 }
 
 nav a:hover {
-    color: #0a66c2;
+  color: #0a66c2;
 }
 
 /* Carousel from css-tricks.com */
@@ -321,6 +321,32 @@ li {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
+@media screen and (max-width: 1024px) {
+  #links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  #selfie-container {
+    margin-left: 5%;
+  }
+
+  #selfie-container img {
+    width: 25%;
+  }
+
+  .carousel {
+    width: 80%;
+    height: 80vh;
+    margin-left: 10%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   #links {
     display: flex;
@@ -359,30 +385,13 @@ li {
   footer {
     font-size: 1rem;
   }
-}
-
-@media screen and (max-width: 1024px) {
-  #links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  footer {
-    font-size: 1rem;
-  }
 
   #selfie-container {
-    margin-left: 5%;
+    width: 100%;
+    margin-left: 0%;
   }
 
-  #selfie-container img {
-    width: 25%;
-  }
-
-  .carousel {
-    width: 80%;
-    height: 80vh;
-    margin-left: 10%;
+  #selfie-container > img {
+    width: 40%;
   }
 }
