@@ -7,7 +7,7 @@ body {
   font-size: 2rem;
   line-height: 1.5;
   background-image: url("images/about-page.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   color: white;
 }
 
